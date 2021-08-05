@@ -1,4 +1,4 @@
-		  TESTING NOTES AND WHAT I HAVE LEARNED(TEAM 48)	
+		  TESTING NOTES	
 
 --> TEST 1: The first test that I have run was ended up with a simple "NameError"
 which caused by using "copy_books" instead of "books_copy".
