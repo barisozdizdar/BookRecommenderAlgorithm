@@ -1,0 +1,51 @@
+		  TESTING NOTES AND WHAT I HAVE LEARNED(TEAM 48)	
+
+--> TEST 1: The first test that I have run was ended up with a simple "NameError"
+which caused by using "copy_books" instead of "books_copy".
+
+-> WHAT I HAVE LEARNED FROM TEST 1: Even the simplest mistake can lead a well-written
+code not to run, to avoid this in a long(161 line) code like I did, I always have to double check the variable names.
+
+--> TEST 2: In the second test I have gotten an error again from using "counter = 0" which is used in order to take the
+ all elements of the list but as I have not increased the counter as "counter += 1" the counter
+ was the list[counter] was accessing the element in the first index.
+
+-> WHAT I HAVE LEARNED FROM TEST 2: As in the first error in order to access all elements
+I had to increase the index number of the "list" by one but as I didn't the code didn't function well.
+
+--> TEST 3: This error was the biggest mistakes that I have done in the testing phase which is about a function
+called ".join()" which works like ".split()" but opposite. So basically, I used the function ".join()" but I
+have given to the function an integer value which is a mistake for the nature of the function. The join
+function takes strings not integers so when I got the error I changed into a string instead of integer.
+
+-> WHAT I HAVE LEARNED FROM TEST 3: Before using a function which as new coders we are not capable of
+knowing every function so it is better to research deeply, than implement them into the code.
+
+--> TEST 4: This the fourth test that I have run, later I had run this test the algorithm and whole code was
+working just fine. So, the  test was interrupted by an error/problem caused because when I was constructing
+the "password" for the new admin it wasn't remembering the admin that just got access so then I have
+used another approach to get rid of that error.
+
+-> WHAT I HAVE LEARNED FROM TEST 4: From the fourth test I have learned that always make the code for the new users
+ but also the system has to remember the user, it was a big mistake by me to skip that part.
+
+--> Test 5: In the fifth test I have tried to see if there any problem with the Algorithm_A which to be concluded by
+a simple test that I run; looking at the outputs and if they contain any of the books that I have rated before. The tests
+that I made was conluded with a good output that the algorithm_A has never shown me the books that I rated before and
+runs perfectly.
+
+-> WHAT I HAVE LEARNED FROM TEST 5: The thing that I have learned was based on how to deal with the tests and get the
+output the mean to be written by us.
+
+--> Test 6: The 6th test was about the Approach_B,first I have deleted the "ratings.txt" from the directory(because there
+are many new test users that might make the tests harder to determine) and then put the untouched ratings.txt into the
+directory and proceed on with a new user. With the new user, as in the code I hava made a "most_similar_user" I have
+print(most_similar_user); and with that I was able to see who the most similar user is then I compared our ratings as the
+algorithm says. Lastly, I found the books that was parallel to his most rated 10 books which were the same as the output.
+
+-> WHAT I HAVE LEARNED FROM TEST 6: What I have learned was in order to get the most accurate tests you have to use some
+tricks as I used; to detect the most similar user. And later on slowly look if there any problems in the output books or
+maybe in the ratings.
+
+----> WHAT I HAVE LEARNED FROM THE ALL TEST PHASE: As many as test is the key to success and like all the codes there will
+always errors especially like this long codes but with the test run, we can improve the code to be a nearly perfection.
